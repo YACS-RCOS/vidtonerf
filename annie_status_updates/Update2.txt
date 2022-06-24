@@ -3,10 +3,21 @@ Project: NeRF or Nothing
 Status Update 2
 
 1) This Week:
+For this week, I continued researching about structure for motion especially with the
+output from COLMAP simulation. I was able to take around 100 pictures of a box and tried
+to simulate it to see if it works on COLMAP. It was able to work and I was able to get the
+data with the different coordinates of the camera position. I also took a deeper
+understand of quaternions which are the coordinates that were outputted. Then, this outputted
+file is then feed into a script that Anthony has which makes the data easier to read. I am
+currently digging into how the script works to run COLMAP from command line so we can just
+collect the data from command line. In addition, I also wrote the documentary on structure
+for motion but is not ready to commit yet.
 
 
 2) Next Week:
-
+For next week, I planned finish the script that runs COLMAP from command and write some
+specific instructions on how to run it. In addition, I plan to do more data collection
+and see which kind of images outputs the best usable data points.
 
 
 3) Blockers:
@@ -15,13 +26,8 @@ There are currently no technical blockers.
 
 4) Links:
 (Resources)
-https://www.matthewtancik.com/nerf
-https://demuc.de/colmap/
-https://github.com/colmap/pycolmap
-https://github.com/muneebaadil/how-to-sfm
-https://imkaywu.github.io/tutorials/sfm/
+https://colmap.github.io/format.html
 (Commits)
-https://github.com/NeRF-or-Nothing/vidtonerf/tree/annie
-https://github.com/NeRF-or-Nothing/vidtonerf/commits/annie
+https://github.com/NeRF-or-Nothing/vidtonerf/commit/837066abab651a8cb225acbb095dbcb592265d95
 
 
