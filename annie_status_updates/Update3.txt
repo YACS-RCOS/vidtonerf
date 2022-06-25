@@ -1,0 +1,35 @@
+Name: Annie Xu
+Project: NeRF or Nothing
+Status Update 3
+
+1) This Week:
+I was able to have some major contribution this week. I was able to build the extrinsic
+and intrinsic matrix from COLMAP data that contains quaternions and the translation vector.
+There is one intrinsic matrix that is built from output file cameras.txt and an extrinsic
+image for each images in the output file iamges.txt. In addition, I wrote the readme page
+for COLMAP that contains a brief description about COLMAP and how the project will be
+implementing it. It also contains some information about the data processing output and
+some good data collection tips. Lastly, I opened an issue about the execution time of
+COLMAP since it takes pretty long to run on my computer and can be a major concern to the
+overall project. This week, I learned more about git such as branching, fetching, merging,
+and opening pull request. I branch out after I want to work on something and delete the
+branch after it has been successfully reviewed and merged.
+
+
+2) Next Week:
+Next week, I plan to work on the whole COLMAP integration by using a script to run COLMAP
+from command line which is something that Anthony has worked on. Then, the output file will
+be generated from there and using the script I wrote this week, extract the data and get
+the respective matrix needed. In addition, I plan to look into rabbitmq which acts like an
+queue service that wait for jobs to perform the above procedure.
+
+
+3) Blockers:
+There are currently no technical blockers.
+
+
+4) Links:
+https://github.com/NeRF-or-Nothing/vidtonerf/commit/fc1dc60e43c8aa043b6367eabecd33bc74c3d0fe
+https://github.com/NeRF-or-Nothing/vidtonerf/commit/e05c8bb013b29a3f5abaafdf9ede36b48269a9e4
+https://github.com/NeRF-or-Nothing/vidtonerf/issues/7
+
